@@ -14,7 +14,7 @@ function hideSidebar()
 
 //function for changing h2title (homepage)
 
-const words = ["Software Developer", "Web Developer", "Data Analyst", "Google Marketer", "Cybersecurity Enthusiast"];
+const words = ["Software Developer", "Web Developer"];
 let currentWordIndex = 0;
 let currentCharIndex = 0;
 const typingSpeed = 200; // Speed of typing
