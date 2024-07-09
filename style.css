@@ -580,7 +580,7 @@ article:has(:hover, :focus){
     }
 
     .pre-loader.hidden{
-        animation: fadeOut 2s; /** change to 1s */
+        animation: fadeOut 1s; /** change to 1s */
         animation-fill-mode: forwards;
     }
     

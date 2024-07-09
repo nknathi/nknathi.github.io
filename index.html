@@ -1,189 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <title>NK Portfolio</title>
-        <link rel="stylesheet" href="./style.css">
-        <meta name="description" content="Explore the portfolio of NK, a Software Engineer. Skilled in full stack development.">
-        <meta name="keywords" content="NK Portfolio, Web Developer, Backend Developer">
-        <link rel="icon" type="image/jpg" sizes="32x32" href="./img/logo.png">
-        <link rel="icon" type="image/jpg" sizes="16x16" href="./img/logo.png">
-      </head>
-    <body>  
-      <header class="navigationheader">
-        <nav>
-          <!--Logo-->
-          <a href="https://nknathi.github.io/"><img src="./img/logo.png" alt="Logo" width="200px"></a>
-    
-          <!--Mobile Menu-->
-          <ul class="sidebar">
-            <li onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"><a href="#"><svg
-                  xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
-                  <path
-                    d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
-                </svg></a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>NK Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta
+      name="description"
+      content="Explore the portfolio of NK, a Software Engineer. Skilled in full stack development."
+    />
+    <meta
+      name="keywords"
+      content="NK Portfolio, Web Developer, Backend Developer"
+    />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./img/logo1.png" />
+    <link rel="icon" type="image/jpg" sizes="16x16" href="./img/logo1.png" />
+  </head>
+  <body>
+    <header class="navigationheader">
+      <nav>
+        <!--Logo-->
+        <a href="https://nknathi.github.io/"
+          ><img src="./img/logo1.png" alt="Logo" width="200px"
+        /></a>
 
-          <!--PC Menu-->
-          <ul>
-            <li class="hideOnMobile"><a href="#home">Home</a></li>
-            <li class="hideOnMobile"><a href="#about">About</a></li>
-            <li class="hideOnMobile"><a href="#projects">projects</a></li>
-            <li class="hideOnMobile"><a href="#contactme"><span class="Contact">Contact Me</span></a></li>
-            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
-                viewBox="0 96 960 960" width="26">
-                <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
-                </svg></a></li>
-          </ul>
-        </nav>
-      </header> 
+        <!--Mobile Menu-->
+        <ul class="sidebar">
+          <li
+            onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"
+          >
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                /></svg
+            ></a>
+          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
 
-      <section class="maincontent" id="home">
-        <div id="mydetails">
-          <h1><span class="hello">Hi, I'm</span> NK dev</h1>
-          <h2 id="animated-text">I'm a </h2>
-          <p>Welcome to my portfolio! I'm Nathi an aspiring IT professional currently Upskilling.
-            Within these pages, you'll find a
-            collection of my projects, experiences, and skills.
+        <!--PC Menu-->
+        <ul>
+          <li class="hideOnMobile"><a href="#home">Home</a></li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#projects">projects</a></li>
+          <li class="hideOnMobile">
+            <a href="#contactme"><span class="Contact">Contact Me</span></a>
+          </li>
+          <li class="menu-button" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="maincontent" id="home">
+      <div id="mydetails">
+        <h1><span class="hello">Hi, I'm</span> NK dev</h1>
+        <h2 id="animated-text">I'm a</h2>
+        <p>
+          Welcome to my portfolio! I'm Nathi an aspiring IT professional
+          currently Upskilling. Within these pages, you'll find a collection of
+          my projects, experiences, and skills.
+        </p>
+      </div>
+
+      <div class="image">
+        <img src="./img/profile.jpg" width="500px" alt="me" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="abouttitle">
+        <p id="aboutp"><em>Want to Know More?!</em></p>
+        <h1 id="aboutH">About Me</h1>
+      </div>
+
+      <div class="about_container">
+        <div class="about_grid">
+          <div class="about_item">
+            <img src="./img/exp.png" alt="expereance logo" width="45px" />
+            <h3>Experience</h3>
+            <p>1+ Years</p>
+            <p>Backend Development with Nodejs and Express</p>
+          </div>
+
+          <div class="about_item">
+            <img src="./img/stack.png" alt="tech stack" width="45px" />
+            <h3>Tech Stack</h3>
+            <p>HTML, CSS, JavaScript, Python, C#</p>
+          </div>
+
+          <div class="about_item">
+            <img src="./img/edu.png" alt="education logo" width="45px" />
+            <h3>Education</h3>
+            <p>Undergraduate at C.U.T</p>
+            <p>NDip in Information Technology</p>
+          </div>
+        </div>
+        <div class="about_paragraph">
+          <p>
+            <span class="hello">Hey!</span>
+            I'm NK, a passionate Tech Enthusiast. I specialize in learning about
+            new Topics in the Tech space. I started with a Software Development
+            course that thaught me the Basic of Programming, like loops, if-else
+            statements, error handling, Object-Oriented Programming and
+            Inheritance. This foundation helped in expanding my learning to
+            different technologies like Python and JavaScript
+          </p>
+
+          <p>
+            JavaScript in my world was all about API Development. I used
+            JavaScript libraries like Nodejs and Expressjs, to implement simple
+            but yet effective APIs that helped with connecting different
+            features from different sources into one application.
+          </p>
+
+          <p>
+            Python saved me some time because of its Automation capabilities. I
+            used Python to Crawl different websites to gather data. I was able
+            to automate some of my daily process like file creation and folder
+            organising. Python is one of the technologies that makes ones work
+            simple and straight forward.
+          </p>
+
+          <p class="lastparagraph">
+            When I'm not coding, I enjoy exploring new tech trends, reading
+            about advancements in difference Tech fields. Cybersecurity has been
+            one of the fields that interests me lately. It is such a broad field
+            with different ways to break into it. Thank you for popping by, feel
+            free to explore my projects.
           </p>
         </div>
 
-        <div class="image">
-            <img src="./img/profile.jpg" width="500px" alt="me">
+        <div class="stack">
+          <h3>Languages and Tools</h3>
+
+          <div class="stackiconscontainer">
+            <div class="stackicons">
+              <img src="./img/html.png" alt="HTML Logo" title="HTML" />
+            </div>
+            <div class="stackicons">
+              <img src="./img/css.png" alt="CSS Logo" title="CSS" />
+            </div>
+            <div class="stackicons">
+              <img
+                src="./img/javascript.png"
+                alt="Javascript Logo"
+                title="Javascript"
+              />
+            </div>
+            <div class="stackicons">
+              <img src="./img/nodejs.png" alt="Nodejs Logo" title="Nodejs" />
+            </div>
+            <div class="stackicons">
+              <img src="./img/python.png" alt="Python Logo" title="Python" />
+            </div>
+            <div class="stackicons">
+              <img src="./img/mysql.png" alt="MySQL Logo" title="SQL" />
+            </div>
+            <div class="stackicons">
+              <img src="./img/docker.png" alt="Docker Logo" title="Docker" />
+            </div>
+            <div class="stackicons">
+              <img
+                src="./img/kubernetes.png"
+                alt="Kubernetes"
+                title="Kubernetes"
+              />
+            </div>
+            <div class="stackicons">
+              <img
+                src="./img/gogglecloud.png"
+                alt="Google Cloud Platform"
+                title="Google Cloud"
+              />
+            </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <section class="about" id="about">
-            <div class="abouttitle">
-              <p id="aboutp"><em>Want to Know More?!</em></p>
-              <h1 id="aboutH">About Me</h1>
+    <section class="projects" id="projects">
+      <div class="contacttitle">
+        <p id="aboutp"><em>My Work</em></p>
+        <h1 id="aboutH">previous Projects</h1>
+      </div>
+
+      <div class="projectcontainer">
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="./img/ducky.jpg" alt="My Portfolio Screenshot" />
+            </figure>
+            <div class="article-body">
+              <h2>My Portfolio</h2>
+              <p>
+                This portfolio is a prime example of my web development skills,
+                designed and coded entirely using HTML, CSS, and JavaScript
+                without the use of any CSS libraries. It demonstrates my ability
+                to create responsive, user-friendly, and visually appealing web
+                designs through clean and efficient code.
+              </p>
+              <a
+                href="https://github.com/nknathi/nknathi.github.io"
+                target="_blank"
+                class="read-more"
+              >
+                View Project
+                <span class="sr-only">about this is some title</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
             </div>
-
-            <div class="about_container">
-                <div class="about_grid">
-                  <div class="about_item">
-                    <img src="./img/exp.png" alt="expereance logo" width="45px">
-                    <h3>Experience</h3>
-                    <p>1+ Years</p>
-                    <p>Backend Development with Nodejs and Express</p>
-                  </div>
-
-                  <div class="about_item">
-                    <img src="./img/stack.png" alt="tech stack" width="45px">
-                    <h3>Tech Stack</h3>
-                    <p>HTML, CSS, JavaScript, Python, C#</p>
-                  </div>
-
-                  <div class="about_item">
-                    <img src="./img/edu.png" alt="education logo" width="45px">
-                    <h3>Education</h3>
-                    <p>Undergraduate at C.U.T</p>
-                    <p>NDip in Information Technology</p>
-                  </div>
-
-                </div>
-                <div class="about_paragraph">
-                  <p><span class="hello">Hey!</span>
-                    I'm NK, a passionate Tech Enthusiast. I specialize in learning about new Topics in the Tech space.
-                    I started with a Software Development course that thaught me the Basic of Programming, like loops, if-else statements,
-                    error handling, Object-Oriented Programming and Inheritance. This foundation helped in expanding my learning to different
-                    technologies like Python and JavaScript
-                  </p>
-
-                  <p>
-                    JavaScript in my world was all about API Development. I used JavaScript libraries like Nodejs and Expressjs, to implement simple
-                    but yet effective APIs that helped with connecting different features from different sources into one application.
-                  </p>
-
-                  <p>
-                    Python saved me some time because of its Automation capabilities. I used Python to Crawl different websites to gather data.
-                    I was able to automate some of my daily process like file creation and folder organising. Python is one of the technologies that
-                    makes ones work simple and straight forward.
-                  </p>
-                
-                  <p class="lastparagraph">
-                    When I'm not coding, I enjoy exploring new tech trends, reading about advancements in difference Tech fields.
-                    Cybersecurity has been one of the fields that interests me lately. It is such a broad field with different ways to break into it.
-                    
-                    
-                    Thank you for popping by, feel free to explore my projects. 
-                  </p>
-                </div>
-
-                <div class="stack">
-                    <h3>Languages and Tools</h3>
-            
-                    <div class="stackiconscontainer">
-                      <div class="stackicons">
-                        <img src="./img/html.png" alt="HTML Logo" title="HTML">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/css.png" alt="CSS Logo" title="CSS">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/javascript.png" alt="Javascript Logo" title="Javascript">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/nodejs.png" alt="Nodejs Logo" title="Nodejs">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/python.png" alt="Python Logo" title="Python">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/mysql.png" alt="MySQL Logo" title="SQL">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/docker.png" alt="Docker Logo" title="Docker">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/kubernetes.png" alt="Kubernetes" title="Kubernetes">
-                      </div>
-                      <div class="stackicons">
-                        <img src="./img/gogglecloud.png" alt="Google Cloud Platform" title="Google Cloud">
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="projects" id="projects">
-
-            <div class="contacttitle">
-              <p id="aboutp"><em>My Work</em></p>
-              <h1 id="aboutH">previous Projects</h1>
-            </div>
-
-            <div class="projectcontainer">
-                <article>
-                  <div class="article-wrapper">
-                    <figure>
-                      <img src="./img/ducky.jpg" alt="My Portfolio Screenshot" />
-                    </figure>
-                    <div class="article-body">
-                      <h2>My Portfolio</h2>
-                      <p>
-                        This portfolio is a prime example of my web development skills, designed and coded entirely using HTML,
-                        CSS, and JavaScript without the use of any CSS libraries. It demonstrates my ability to create responsive,
-                        user-friendly, and visually appealing web designs through clean and efficient code.
-                      </p>
-                      <a href="https://github.com/nknathi/nknathi.github.io" target="_blank" class="read-more">
-                        View Project <span class="sr-only">about this is some title</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                          <path fill-rule="evenodd"
-                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </article>
-                <!--
+          </div>
+        </article>
+        <!--
                 <article>
                     <div class="article-wrapper">
                       <figure>
@@ -231,80 +292,105 @@
                       </div>
                     </div>
                 </article>
-                -->
-            </div>
-        </section>
+            -->
+      </div>
+    </section>
 
-        <section class="contactme" id="contactme">
+    <section class="contactme" id="contactme">
+      <div class="contacttitle">
+        <p id="aboutp"><em>Poject Collabs?!</em></p>
+        <h1 id="aboutH">Contact Me</h1>
+      </div>
 
-            <div class="contacttitle">
-              <p id="aboutp"><em>Poject Collabs?!</em></p>
-              <h1 id="aboutH">Contact Me</h1>
-            </div>
+      <div class="contactform">
+        <!-- Replace with your Access Key -->
+        <input
+          type="hidden"
+          name="apikey"
+          value="4e36e8ab-59a5-49e2-a750-9e43c96c1435"
+        />
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Replace with your Access Key -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="4e36e8ab-59a5-49e2-a750-9e43c96c1435"
+          />
 
-            <div class="contactform">
-                <!-- Replace with your Access Key -->
-                <input type="hidden" name="apikey" value="4e36e8ab-59a5-49e2-a750-9e43c96c1435">
-                <form action="https://api.web3forms.com/submit" method="POST">
-          
-                  <!-- Replace with your Access Key -->
-                  <input type="hidden" name="access_key" value="4e36e8ab-59a5-49e2-a750-9e43c96c1435">
-          
-                  <input type="hidden" name="subject" value="New Contact Form Submission From Portfolio">
-          
-                  <input type="hidden" name="redirect" value="https://nknathi.github.io//index.html">
-          
-                  <!-- Form Inputs. Each input must have a name="" attribute -->
-                  <input type="text" name="name" placeholder="Name" required>
-                  <input type="email" name="email" placeholder="Email" required>
-                  <textarea name="message" placeholder="Message" required></textarea>
-          
-                  <!-- Honeypot Spam Protection -->
-                  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-          
-                  <button type="submit">Submit Form</button>
-          
-                  <p id="result"></p>
-          
-                </form>
-              </div>
+          <input
+            type="hidden"
+            name="subject"
+            value="New Contact Form Submission From Portfolio"
+          />
 
-              <div class="socialcontainer">
-                <div class="icons">
-                  <a href="https://github.com/nknathi" target="_blank">
-                    <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
-                  </a>
-                </div>
-                <div class="icons">
-                  <a href="mailto: nknathindamase@gmail.com">
-                    <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
-                  </a>
-                </div>
-              </div>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://nknathi.github.io/index.html"
+          />
 
-              <div class="mymail">
-                <p><b>Email:</b><a href="mailto: nknknathindamase@gmail.com"> nknknathindamase@gmail.com</a></p>
-              </div>
-          
-            </section>
-          
-            <footer class="footer">
-              <p>&copy; <span id="displayYear"></span> NK | All rights reserved.</p>
-            </footer>
-          
-            <!--Pre loader div-->
-            <div class='pre-loader'>
-              <div class="cssanimation"></div>
-            </div>
-          
-            <!--font for hamburger menu-->
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-          
-            <!--js file linked-->
-            <script src="/js/script.js"></script>
-          </body>
-          
-          </html>
-    </body>
-</html>    
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+
+          <!-- Honeypot Spam Protection -->
+          <input
+            type="checkbox"
+            name="botcheck"
+            class="hidden"
+            style="display: none"
+          />
+
+          <button type="submit">Submit Form</button>
+
+          <p id="result"></p>
+        </form>
+      </div>
+
+      <div class="socialcontainer">
+        <div class="icons">
+          <a href="https://github.com/nknathi" target="_blank">
+            <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
+          </a>
+        </div>
+        <div class="icons">
+          <a href="mailto: nknathindamase@gmail.com">
+            <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
+          </a>
+        </div>
+      </div>
+
+      <div class="mymail">
+        <p>
+          <b>Email:</b
+          ><a href="mailto: nknknathindamase@gmail.com">
+            nknknathindamase@gmail.com</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="displayYear"></span> NK | All rights reserved.</p>
+    </footer>
+
+    <!--Pre loader div-->
+    <div class="pre-loader">
+      <div class="cssanimation"></div>
+    </div>
+
+    <!--font for hamburger menu-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--js file linked-->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
