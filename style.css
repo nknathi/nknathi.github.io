@@ -1,7 +1,7 @@
 :root {
-    --bgcolormain: #eff4fd;
-    --bgcolor2: #e0e7f2;
-    --purple: #ba70f3;
+    --bgcolormain: #d8f3dc;
+    --bgcolor2: #b7e4c7;
+    --green: #95d5b2;
   }
 
 *{
@@ -101,26 +101,26 @@ nav ul li a{
 /*Hamberger menu end*/
 
 a:hover{
-    color: var(--purple);
+    color: var(--green);
     transition: 0.3s;
 }
 
 a:hover{
-    color: var(--purple);
+    color: var(--green);
     transition: 0.3s;
 }
 
 .Contact{
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
-    color: #eff4fd;
-    border: 2px solid var(--purple);
-    background-color: var(--purple);
+    color: #b7e4c7;
+    border: 2px solid var(--green);
+    background-color: var(--green);
 }
 
 .Contact:hover{
     background-color: transparent;
-    color: var(--purple);
+    color: var(--green);
     transition: 0.4s;
 }
 
@@ -155,7 +155,7 @@ a:hover{
 .image img{
     width: min(25rem, 90%);
     border-radius: 25px;
-    box-shadow: 0px 0px 60px 10px #ad8ec5;
+    box-shadow: 0px 0px 60px 10px #b7e4c7;
     /* in order: x offset, y offset, blur size, spread size, color */
     -webkit-animation: upDown 8s infinite;
           animation: upDown 8s infinite;
@@ -192,7 +192,7 @@ a:hover{
 }
 
 .image img:hover{
-    box-shadow: 0px 0px 60px 25px #ad8ec5;
+    box-shadow: 0px 0px 60px 25px #88be9b;
     /* in order: x offset, y offset, blur size, spread size, color */
     transition: 0.5s;
 }
@@ -213,7 +213,7 @@ a:hover{
 }
 
 .hello{
-    color: var(--purple);
+    color: var(--green);
 }
 
 /*About Me Section*/
@@ -382,11 +382,11 @@ article a{
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: var(--purple);
+    color: var(--green);
 }
   
 article a:focus{
-    outline: 1px dotted var(--purple);
+    outline: 1px dotted var(--green);
 }
   
 article a .icon{
@@ -402,7 +402,7 @@ article a .icon{
 /* using the has() relational pseudo selector to update our custom properties */
 article:has(:hover, :focus){
     --img-scale: 1.1;
-    --title-color: var(--purple);
+    --title-color: var(--green);
     --link-icon-translate: 0;
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -471,8 +471,8 @@ article:has(:hover, :focus){
     width: 105px;
     height: 35px;
     margin-top: 7px;
-    background-color: var(--purple);
-    border: 1px solid var(--purple);
+    background-color: var(--green);
+    border: 1px solid var(--green);
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -481,7 +481,7 @@ article:has(:hover, :focus){
 
 .contactform button:hover{
     background-color: transparent;
-    color: var(--purple);
+    color: var(--green);
     transition: 0.4s;
 }
 
@@ -517,7 +517,7 @@ article:has(:hover, :focus){
 }
 
 #Instagram{
-    color: #d069e5;
+    color: #6be797;
 }
 
 #Linkedin{
@@ -549,7 +549,7 @@ article:has(:hover, :focus){
 .cssanimation{
     width: 70px;
     aspect-ratio: 1;
-    --c: no-repeat linear-gradient(var(--purple) 0 0);
+    --c: no-repeat linear-gradient(var(--green) 0 0);
     background:
     var(--c) 0% 50%,
     var(--c) 50% 50%,
@@ -571,7 +571,7 @@ article:has(:hover, :focus){
         z-index: 1001; /** make sure this is the highest value compared to all other divs **/
         top: 0;
         left: 0;
-        background: #eff4fd;
+        background: #edfdf3;
         display: flex;
         justify-content: center;
         align-items: center;
