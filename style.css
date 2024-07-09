@@ -1,7 +1,7 @@
 :root {
-    --bgcolormain: #d8f3dc;
-    --bgcolor2: #b7e4c7;
-    --green: #95d5b2;
+    --bgcolormain: #b7e4c7;
+    --bgcolor2: #d8f3dc;
+    --green: #2d6a4f;
   }
 
 *{
@@ -556,19 +556,19 @@ article:has(:hover, :focus){
     var(--c) 100% 50%;
     background-size: 20% 100%;
     animation: l1 1s infinite linear;
-    }
+}
 
-    @keyframes l1{
+@keyframes l1{
         0% {background-size: 20% 100%,20% 100%,20% 100%}
         33% {background-size: 20% 10% ,20% 100%,20% 100%}
         50% {background-size: 20% 100%,20% 10% ,20% 100%}
         66% {background-size: 20% 100%,20% 100%,20% 10% }
         100%{background-size: 20% 100%,20% 100%,20% 100%}
-        }
+}
     
-    .pre-loader{
+.pre-loader{
         position: fixed;
-        z-index: 1001; /** make sure this is the highest value compared to all other divs **/
+        z-index: 1001;  /**make sure this is the highest value compared to all other divs */
         top: 0;
         left: 0;
         background: #edfdf3;
@@ -577,92 +577,92 @@ article:has(:hover, :focus){
         align-items: center;
         height: 100%;
         width: 100%;
-    }
+}
 
-    .pre-loader.hidden{
-        animation: fadeOut 1s; /** change to 1s */
+.pre-loader.hidden{
+        animation: fadeOut 1s;  /**change to 1s */
         animation-fill-mode: forwards;
-    }
+}
     
-    @keyframes fadeOut{
-        100% {
-            opacity: 0;
-            visibility: hidden;
-        }
+@keyframes fadeOut{
+    100% {
+        opacity: 0;
+        visibility: hidden;
     }
-/*Preloader styles end*/
+}
+/**Preloader styles end*/
 
 /* Media Quaries */
 @media (width < 750px){
     .image {
         grid-area: 1/1/2/2;
-    }
+}
 
-    .maincontent{
-        padding: 10rem 1rem 5rem 1rem;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .stackicons img{
-        width: 40px;
-    }
-    .icons ion-icon {
-        font-size: 44px;
-    }
+.maincontent{
+    padding: 10rem 1rem 5rem 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+.stackicons img{
+    width: 40px;
+}
+.icons ion-icon {
+    font-size: 44px;
+}
 }
 @media(max-width: 477px){
-    .mymail{
+.mymail{
         font-size: 15px;
-    }
+}
 
-    .about_grid{
-        flex-direction: column;
-    }
+.about_grid{
+    flex-direction: column;
+}
 
 }
 
 @media(max-width: 347px){
-    #mydetails h1{
-        font-size: 30px;
-    }
+#mydetails h1{
+    font-size: 30px;
+}
     
-    #mydetails h2{
-        margin-bottom: 10px; /* adjust position using margin*/
-    }
+#mydetails h2{
+    margin-bottom: 10px; /* adjust position using margin*/
+}
 
 }
 
 @media(max-width: 338px){
-    .projectcontainer{
-        margin-left: 0;
-        margin-right: 0;
-    }
+.projectcontainer{
+    margin-left: 0;
+    margin-right: 0;
+}
 }
 
 @media screen and (max-width: 960px) {
-    article {
-      container: card/inline-size;
-    }
-    .article-body p {
-      display: none;
-    }
-  }
-  @container card (min-width: 380px) {
-    .article-wrapper {
-      display: grid;
-      grid-template-columns: 100px 1fr;
-      gap: 16px;
-    }
-    .article-body {
-      padding-left: 0;
-    }
-    figure {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    figure img {
-      height: 100%;
-      aspect-ratio: 1;
-      object-fit: cover;
+article {
+    container: card/inline-size;
+}
+.article-body p {
+    display: none;
+}
+}
+@container card (min-width: 380px) {
+.article-wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 16px;
+}
+.article-body {
+    padding-left: 0;
+}
+figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+figure img {
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
     }
 }

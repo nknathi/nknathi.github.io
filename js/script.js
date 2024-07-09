@@ -14,7 +14,7 @@ function hideSidebar()
 
 //function for changing h2title (homepage)
 
-const words = ["Software Developer", "Web Developer"];
+const words = [" Software Developer", " Web Developer"];
 let currentWordIndex = 0;
 let currentCharIndex = 0;
 const typingSpeed = 200; // Speed of typing
@@ -65,7 +65,7 @@ function hidePreloader() {
 }
 
 // Set a timeout to hide the preloader after 1.5 seconds
-const preloaderTimeout = setTimeout(hidePreloader, 5000);
+const preloaderTimeout = setTimeout(hidePreloader, 1.53);
 
 // Hide the preloader when the site is fully loaded
 window.addEventListener('load', function () {
