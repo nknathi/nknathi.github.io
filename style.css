@@ -62,7 +62,7 @@ nav ul li a{
     width: 250px;
     background-color: #d8f3dc;
     backdrop-filter: blur(100px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 10px #1d4e38;
     list-style: none;
     display: none;
     flex-direction: column;
@@ -113,7 +113,7 @@ a:hover{
 .Contact{
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
-    color: #b7e4c7;
+    color: #d8f3dc;
     border: 2px solid var(--green);
     background-color: var(--green);
 }
@@ -121,7 +121,7 @@ a:hover{
 .Contact:hover{
     background-color: transparent;
     color: var(--green);
-    transition: 0.4s;
+    transition: 0.13s;
 }
 
 /*Home Section*/
@@ -155,7 +155,7 @@ a:hover{
 .image img{
     width: min(25rem, 90%);
     border-radius: 25px;
-    box-shadow: 0px 0px 60px 10px #b7e4c7;
+    box-shadow: 0px 0px 60px 10px #2c492c;
     /* in order: x offset, y offset, blur size, spread size, color */
     -webkit-animation: upDown 8s infinite;
           animation: upDown 8s infinite;
@@ -192,7 +192,7 @@ a:hover{
 }
 
 .image img:hover{
-    box-shadow: 0px 0px 60px 25px #88be9b;
+    box-shadow: 0px 0px 60px 25px #2c492c;
     /* in order: x offset, y offset, blur size, spread size, color */
     transition: 0.5s;
 }
@@ -200,7 +200,7 @@ a:hover{
 
 #mydetails h1{
     font-size: 50px;
-    color: #212121;
+    color: #209762d3;
 }
 
 #mydetails h2{
@@ -208,12 +208,12 @@ a:hover{
 }
 
 #mydetails p{
-    color: #555;
+    color: #112e21;
     line-height: 22px;
 }
 
 .hello{
-    color: var(--green);
+    color: #1d4e38;
 }
 
 /*About Me Section*/
@@ -237,7 +237,7 @@ a:hover{
 #aboutH{
     text-align: center;
     font-size: 50px;
-    color: #212121;
+    color: #1d4e38;
 }
 
 .about_container{
@@ -259,8 +259,8 @@ a:hover{
 
 .about_item{
     flex: 1;
-    border: 1px solid black;
-    box-shadow: 10px 10px 5px hsl(240, 2%, 64%);
+    border: 1px solid green;
+    box-shadow: 10px 10px 5px hsl(147, 4%, 55%);
     padding: 1.5rem;
     border-radius: 15px;
     text-align: center;
@@ -286,6 +286,7 @@ a:hover{
 }
 
 .stack{
+    background-color: var(--bgcolor2);
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 30px;
@@ -331,13 +332,13 @@ a:hover{
 
 article{
     --img-scale: 1.001;
-    --title-color: black;
+    --title-color: var(--green);
     --link-icon-translate: -20px;
     --link-icon-opacity: 0;
     position: relative;
     border-radius: 16px;
     box-shadow: none;
-    background: #fff;
+    background: var(--bgcolor2);
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
@@ -356,7 +357,7 @@ article h2{
     margin: 0 0 12px 0;
     font-size: 1.9rem;
     letter-spacing: 0.01em;
-    color: var(--title-color);
+    color: var(--green);
     transition: color 0.3s ease-out;
 }
 
@@ -378,11 +379,15 @@ article img{
     padding: 15px 24px 24px 24px;
 }
 
+.article-body p{
+    color: #112e21;
+}
+
 article a{
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: var(--green);
+    color: #0077B5;
 }
   
 article a:focus{
