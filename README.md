@@ -71,4 +71,4 @@ Throughout this journey, I've accumulated experience with various technologies a
 - Curl
 - Linux
 
-Feel free to explore this repository for more details on each milestone in my journey. I'm passionate about technology and software development and am committed to continuous learning and growth. Let's keep building and exploring together!
+Feel free to explore this repository for a deeper dive into each milestone.  This journey ignited my passion for technology and software development.  I'm committed to continuous learning and growth – let's keep building and exploring together!
