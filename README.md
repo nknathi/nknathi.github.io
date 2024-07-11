@@ -11,7 +11,7 @@ This GitHub repository chronicles my learning adventure in technology and softwa
 - **Software Design with UML**
   - I explored the Unified Modeling Language (UML) to grasp software design principles.
 - **GUI Development**
-  - I gained hands-on experience in creating user interfaces using Windows Forms in C#
+  - I gained hands-on experience in creating user interfaces using Windows Forms in C#.
 - **Content Management Systems**
   - I broadened my horizons by exploring the Joomla content management system.
 
